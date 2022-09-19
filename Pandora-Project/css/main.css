@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Qs_Iranyekan';
+    src: url('../fonts/Qs_Iranyekan.ttf');
+}
+
+@font-face {
+    font-family: 'Vazirmatn';
+    src: url('../fonts/Vazirmatn-Regular.woff2');
+}
+
+body {
+    font-family: 'Qs_Iranyekan';
+    background: url('../images/pexels-sewupari-studio-11527814.jpg') center/cover no-repeat;
+    margin-top: 55rem;
+}
+
+.main-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+/* .text {
+    font-family: 'Vazirmatn';
+} */
